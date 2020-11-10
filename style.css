@@ -71,12 +71,9 @@ hr {
     }
 
     .card {
-        width: 50vh;
+        width: 50vw;
         height: 100vh;
         margin-bottom: auto;
-    }
-    .card-text {
-        font-size: 10px;
     }
  }
 
@@ -87,13 +84,9 @@ hr {
     }
       
     .card {
-        width : 50vh;
+        width : 50vw;
         height: 100vh;
         margin: 10px 20px;
-    }
-
-    .card-text {
-        font-size: 10px;
     }
 }
 /* Large devices (desktops, 992px and up)*/
@@ -107,7 +100,7 @@ hr {
     }
     .card {
         height: 105vh;
-        width: 45vh;
+        width: 45vw;
         margin-top: 30px;
         background-color: black;
         border: 1px solid white;
@@ -141,15 +134,12 @@ hr {
 
     .card {
         height: 100vh;
-        width: 45vh;
+        width: 45vw;
         margin: 0 2%;
         background-color: black;
         border: 1px solid white;
     }
     
-    .card-text {
-        font-size: 13px;
-    }
 }
 
 
