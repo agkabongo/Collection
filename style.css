@@ -60,7 +60,7 @@ hr {
  No media query for `xs` since this is the default in Bootstrap*/
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 320px) and (max-width:640px){ 
+@media (min-width: 320px) and (max-width:666px){ 
     .row{
         flex-direction: column;
     }
@@ -73,7 +73,7 @@ hr {
  }
 
 /*Medium devices (tablets, 768px and up)*/
-@media (min-width: 641px)  and (max-width:991px){ 
+@media (min-width: 667px)  and (max-width:991px){ 
     .card {
         width : 55vh;
         height: 100vh;
