@@ -63,13 +63,18 @@ hr {
     .row{
         flex-direction: column;
     }
+
+    .card {
+        width: 60vh;
+        margin-bottom: 5%;
+    }
  }
 
 /*Medium devices (tablets, 768px and up)*/
 @media (min-width: 768px)  and (max-width:991px){ 
     .card {
-        width : 60vh;
-        margin: auto;
+        width : 55vh;
+        margin: 10px 20px;
     }
 }
 /* Large devices (desktops, 992px and up)*/
@@ -80,9 +85,14 @@ hr {
     .card {
         height: 90vh;
         width: 45vh;
-        margin: 0 2%;
+        margin-top: 30px;
         background-color: black;
         border: 1px solid white;
+    }
+
+    .row {
+        display: inline; 
+        float: left;
     }
     
 }
