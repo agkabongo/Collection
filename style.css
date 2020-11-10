@@ -3,6 +3,7 @@
 body {
     background-color: #000000;
     color: #fff;
+    min-width: 320px;
 }
 
 #profilepic {
@@ -12,7 +13,7 @@ body {
     border-radius: 100%;
 }
 
-.agCollection {
+.aboutme {
     padding: 0 30px ;
 }
 
@@ -59,13 +60,14 @@ hr {
  No media query for `xs` since this is the default in Bootstrap*/
 
 /* Small devices (landscape phones, 576px and up)*/
-@media (min-width: 576px) and (max-width:767px){ 
+@media (min-width: 320px) and (max-width:767px){ 
     .row{
         flex-direction: column;
     }
 
     .card {
         width: 60vh;
+        height: 100vh;
         margin-bottom: 5%;
     }
  }
@@ -74,6 +76,7 @@ hr {
 @media (min-width: 768px)  and (max-width:991px){ 
     .card {
         width : 55vh;
+        height: 100vh;
         margin: 10px 20px;
     }
 }
@@ -83,7 +86,7 @@ hr {
         font-size: 13px;
     }
     .card {
-        height: 90vh;
+        height: 105vh;
         width: 45vh;
         margin-top: 30px;
         background-color: black;
@@ -94,14 +97,26 @@ hr {
         display: inline; 
         float: left;
     }
-    
+    #profilepic {
+        width: 100px;
+        height: 100px;
+        object-fit: cover;
+        border-radius: 100%;
+    }
+     .agCollection {
+         display: inline;
+    }
+
+    .aboutme p {
+        font-size: 15px;
+    }
 }
 
 /* Extra large devices (large desktops, 1200px and up)*/
 @media (min-width: 1200px) {
 
     .card {
-        height: 90vh;
+        height: 100vh;
         width: 45vh;
         margin: 0 2%;
         background-color: black;
